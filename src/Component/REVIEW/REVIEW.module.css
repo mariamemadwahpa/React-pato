@@ -1,0 +1,43 @@
+.ContinerREVIEW{
+    padding: 100px 0;
+    text-align: center;
+    /* width: 60px; */
+}
+.ContinerREVIEW img{
+    border-radius: 50%;
+    border: 5px red solid;
+    justify-content: center;
+    margin:40px auto;
+    width: 150px;
+    
+    
+}
+.REVIEW{
+    width: 60%;
+    justify-content: center;
+    margin: auto;
+    @media (max-width:1100px) {
+        width: 100%;
+    }
+}
+ .ContinerREVIEW p{
+    color: #00000082;
+    font-size: 25px;
+    padding: 20px 0;
+
+
+ }
+ .ContinerREVIEW h5{
+    color: #00000082;
+    padding: 50px 0;
+
+ }
+ .ContinerREVIEW h3{
+    color: red;
+    /* padding: 50px 0; */
+
+ }
+ .ContinerREVIEW h1{
+    font-size: 80px;
+
+ }

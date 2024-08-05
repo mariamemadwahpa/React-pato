@@ -1,0 +1,132 @@
+
+.ContainerDiscover{
+    background-color: #efefef;
+    /* width: 100%; */
+    
+}
+.Discover{
+    padding:100px 0;
+    width: 90%;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    /* gap: 20px; */
+
+    
+
+}
+.TextDiscover h3{
+    color: red;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.TextDiscover h1{
+    font-size: 60px;
+    font-weight: bolder;
+    padding-bottom: 40px;
+}
+
+.section{
+    display: flex;
+    justify-content: center;
+
+    /* gap: 20px; */
+    @media (max-width: 1100px) {
+       display: block;
+       margin: 50px 0;
+      }
+}
+
+.CardDiscoverOne {
+    width: 60%;
+    /* gap: 20px; */
+    /* gap: 20px; */
+    /* display: flex; */
+    @media (max-width: 1100px) {
+        width: 100%;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+}
+.CardDiscoverOne img{
+    margin: 1%;
+    /* gap: 10px; */
+    width: 45%;
+    border-radius: 10px;
+    @media (max-width: 1100px) {
+        width: 80%;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+}
+.CardDiscoverTow{
+    width: 30%;
+    @media (max-width: 1100px) {
+        width: 100%;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+}
+.CardDiscoverTow img{
+    width: 90%;
+    margin: 20px;
+    /* display: block; */
+    border-radius: 10px;
+    @media (max-width: 1100px) {
+        width: 80%;
+        margin: auto;
+        margin-bottom: 20px;
+      }
+
+    
+}
+/* .sectiontwo{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 90%;
+    justify-content: space-between;
+} */
+.CardDiscoverThree {
+    width: 60%;
+    /* margin: 15px; */
+    border-radius: 10px;
+    @media (max-width: 1100px) {
+        width: 100%;
+        margin: auto;
+        margin-bottom: 20px;
+      }
+
+}
+.CardDiscoverThree img{
+    width: 95%;
+    /* margin: 15px; */
+    border-radius: 10px;
+    @media (max-width: 1100px) {
+        width: 80%;
+        margin: auto;
+        margin-bottom: 20px;
+      }
+
+}
+.CardDiscoverfour{
+    width: 30%;
+    /* margin: 10px; */
+    border-radius: 10px;
+    @media (max-width: 1100px) {
+        width: 80%;
+        margin: auto;
+        margin-bottom: 20px;
+      }
+
+}
+.CardDiscoverfour img{
+    width: 90%;
+    /* margin: 10px; */
+    border-radius: 10px;
+    @media (max-width: 1100px) {
+        width: 100%;
+        margin: auto;
+        margin-bottom: 20px;
+      }
+
+}

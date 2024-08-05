@@ -1,0 +1,67 @@
+.ContainerCard{
+    background-color: #efefef;
+    padding: 220px 0px;
+       
+}
+
+.Containerparant{
+    display: flex;
+    margin: auto;
+    gap: 10px;
+    width: 88%;
+    
+    @media (max-width: 1100px) {
+        display: block;
+    }
+}
+
+.CardParantTow{
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    @media (max-width: 1100px) {
+        width: 80%;
+    }
+}
+.Containerparant h3{
+    color: red;
+    font-size: 50px;
+}
+.Containerparant h1 {
+    font-size: 50px;
+}
+.Containerparant p ,.Containerparant a{
+    font-size: 20px;
+    color: #00000094;
+    line-height: 35px;
+    margin-top: 30px;
+}
+        
+.CardParantTow img{
+    width: 90%;
+    height: 500px;
+    border-radius: 10px;
+    @media (max-width: 1100px) {
+    margin-top: 50px;
+    width: 100%;
+    }
+}
+
+.ContainerCardtow{
+    background-image: url('../img/bg-intro-01.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    background-attachment:fixed;
+    background-position: 50%;
+    text-align: center;
+    
+}
+.ContainerCardtow h3{
+    color: red;
+    padding-top: 150px;
+}
+.ContainerCardtow h1{
+    font-size: 70px;
+    color: #fff;
+}

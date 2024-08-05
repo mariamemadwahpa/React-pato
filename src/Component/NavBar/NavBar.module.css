@@ -1,0 +1,49 @@
+
+.Links{
+    @media (max-width:1200px) {
+    visibility: hidden;
+        width: 0%;
+    } 
+}
+.Links,.icons{
+    display: flex;
+    gap: 30px;
+    font-size: 20px ;
+    
+}
+
+.Links a:hover{
+    color: red;
+    transition: 1000ms;
+}
+.Link a:hover{
+    color: red;
+    transition: 1000ms;
+}
+
+
+.NavBar{
+   z-index:100;
+   color: #fff;
+   width: 90%;
+   justify-content: center;
+   margin: auto;
+   position: sticky;
+   top: 30px;
+   
+  
+} 
+.gallery{
+    justify-content:center;
+    margin: auto;
+    text-align: center;
+}
+.imggallery{
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+
+}
+.imggallery img{
+    width: 90px;
+}
